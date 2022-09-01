@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "customeraks-84d9"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "customeraks-84d9"
+  template:
+    metadata:
+      labels:
+        app: "customeraks-84d9"
+    spec:
+      containers:
+        - name: "customeraks-84d9"
+          image: "propertyreg.azurecr.io/customeraks"
+          ports:
+          - containerPort: 80
