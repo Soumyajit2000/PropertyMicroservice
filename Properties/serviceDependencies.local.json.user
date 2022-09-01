@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2022-09-01T04:49:21.8245585Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2022-09-01T04:49:26.8392283Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "d5fcf49e-5664-4c58-8f51-ffe1ee16b151"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "demores"
+    }
+  }
+}
